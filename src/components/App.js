@@ -20,8 +20,11 @@ const App = () => {
       <input onChange={(e)=>dispatch(setemail(e.target.value))} value={email} id="email" type="email" placeholder="Email" />
       <br/>
       <p>Current values in store:</p>
+      <p className="output">
       Name - {name}<br/>
       Email - {email}
+      </p>
+     
         {/* Do not remove the main div */}
     </div>
   )
